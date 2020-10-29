@@ -15,3 +15,7 @@ for file in list_of_files:
     else:
         os.makedirs(path + '/' + ext)
         shutil.move(path + '/' + file, path + '/' + ext + '/' + file)
+        
+#things left to do:
+ #- backup files.
+ #- Move files.
